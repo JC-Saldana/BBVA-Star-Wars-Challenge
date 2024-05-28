@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SWAPI Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>SWAPI Challenge</h1>
+    <nav>
+      <ul id="menu">
+        <li><a href="#" data-entity="films">Films</a></li>
+        <li><a href="#" data-entity="people">People</a></li>
+        <li><a href="#" data-entity="planets">Planets</a></li>
+        <li><a href="#" data-entity="species">Species</a></li>
+        <li><a href="#" data-entity="starships">Starships</a></li>
+        <li><a href="#" data-entity="vehicles">Vehicles</a></li>
+      </ul>
+    </nav>
+    <input type="text" id="search" placeholder="Search...">
+  </header>
+  <main id="content"></main>
+  <div id="loader" class="loader" style="display:none;"></div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

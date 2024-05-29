@@ -51,7 +51,7 @@ export const initEntityListItems = (content) => {
 }
 
 export const handleEntityClick = async (event) => {
-    alert("click")
+
     const url = event.target.dataset.url
     const content = document.getElementById('content')
     const loader = document.getElementById('loader')

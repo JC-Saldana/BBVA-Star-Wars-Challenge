@@ -38,16 +38,30 @@ SWAPI Challenge es una SPA desarrollada como proceso de selección para BBVA. Co
     ```bash
     npm start
 3. **Navegar a la url:**
-    ```bash
+    bash
     http://localhost:5000
 
+## Test
+
+1. **Clonar el repositorio:**
+
+```bash
+   npm test
+   ```
 # Estructura del Proyecto
 
 ```plaintext
 swapi-challenge/
 │
-├── index.html          # HTML principal
-├── style.css           # Estilos
-├── main.js             # Lógica
-├── package.json        # Configuración de npm
-└── README.md           # Guía
+├── src/
+│   ├── index.html         # Project html
+│   ├── main.js            # Main JavaScript logic
+│   ├── main.test.js       # Tests
+│   ├── styles.css         # Styles
+│
+├── .gitignore             # Git ignore file
+├── README.md              # Project guide
+├── package.json           # NPM config
+├── jest.config.js         # Jest config
+├── .prettierrc            # Prettier config
+└── .prettierignore        # Prettier ignore file

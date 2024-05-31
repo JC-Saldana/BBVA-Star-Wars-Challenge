@@ -2,7 +2,7 @@
 
 ## Descripción
 
-SWAPI Challenge es una SPA desarrollada como proceso de selección para BBVA. Consiste en explorar la API de Star Wars [SWAPI](https://swapi.py4e.com/)
+SWAPI Challenge es una SPA desarrollada como prueba para un proceso de selección. Consiste en explorar la API de Star Wars [SWAPI](https://swapi.py4e.com/)
 
 ## Funcionalidades
 
